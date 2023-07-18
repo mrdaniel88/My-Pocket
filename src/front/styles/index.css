@@ -7,13 +7,17 @@ body {
     color: wheat;
 }
 
-.parent {
-    display: flex;
-    flex-direction: row;
+.dropdown-toggle {
+    color: whitesmoke
 }
 
-.page-body {
+/* .parent {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .page-body {
     display: flex;
     flex-direction: column;
-}
+} */
 
