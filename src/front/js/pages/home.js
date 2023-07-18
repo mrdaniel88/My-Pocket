@@ -12,7 +12,7 @@ export const Home = () => {
 			<p>
 				<img src={rigoImageUrl} />
 			</p>
-			<div className="alert alert-info">
+			<div classNameName="alert alert-info">
 				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
 			</div>
 			<p>
@@ -21,53 +21,53 @@ export const Home = () => {
 					Read documentation
 				</a>
 			</p> */}
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-auto bg-dark sticky-top">
-						<div class="d-flex flex-sm-column flex-row flex-nowrap bg-dark align-items-center sticky-top">
-							<a href="/" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
-							<i class="side-icon fa-solid fa-rocket"></i>
+			<div className="container-fluid">
+				<div className="row">
+					<div className="col-sm-auto bg-dark sticky-top">
+						<div className="d-flex flex-sm-column flex-row flex-nowrap bg-dark align-items-center sticky-top">
+							<a href="/" className="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+								<i className="side-icon fa-solid fa-rocket"></i>
 							</a>
-							<ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
-								<li class="nav-item">
-									<a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
-									<i class="side-icon fa-solid fa-house"></i>
+							<ul className="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+								<li className="nav-item">
+									<a href="#" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+										<i className="side-icon fa-solid fa-house"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
-									<i class="side-icon fa-solid fa-chart-pie"></i>
+									<a href="#" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+										<i className="side-icon fa-solid fa-chart-pie"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
-									<i class="side-icon fa-solid fa-plus"></i>
+									<a href="#" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
+										<i className="side-icon fa-solid fa-plus"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Products">
-									<i class="side-icon fa-solid fa-dollar-sign"></i>
+									<a href="#" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Products">
+										<i className="side-icon fa-solid fa-dollar-sign"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Customers">
-									<i class="side-icon fa-solid fa-ghost"></i>
+									<a href="#" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Customers">
+										<i className="side-icon fa-solid fa-ghost"></i>
 									</a>
 								</li>
 							</ul>
-							<div class="dropdown">
-								<a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
-								<i class="side-icon fa-solid fa-circle-user"></i>
+							<div className="dropdown">
+								<a href="#" className="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
+									<i className="side-icon fa-solid fa-circle-user"></i>
 								</a>
-								<ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
-									<li><a class="dropdown-item" href="#">New project...</a></li>
-									<li><a class="dropdown-item" href="#">Settings</a></li>
-									<li><a class="dropdown-item" href="#">Profile</a></li>
+								<ul className="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
+									<li><a className="dropdown-item" href="#">New project...</a></li>
+									<li><a className="dropdown-item" href="#">Settings</a></li>
+									<li><a className="dropdown-item" href="#">Profile</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm p-3 min-vh-100">
+					<div className="col-sm p-3 min-vh-100">
 						
 					</div>
 				</div>
