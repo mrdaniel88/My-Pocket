@@ -19,7 +19,7 @@ export const Sidebar = () => {
 			</p> */}
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-sm-auto bg-dark sticky-top">
+					<div className="col-sm-auto bg-dark sticky-top min-vh-100">
 						<div className="d-flex flex-sm-column flex-row flex-nowrap bg-dark align-items-center sticky-top">
 							<a href="/" className="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
 								<i className="side-icon fa-solid fa-rocket"></i>
@@ -63,9 +63,9 @@ export const Sidebar = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-sm p-3 min-vh-100">
+					{/* <div className="col-sm p-3 min-vh-100">
 						
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

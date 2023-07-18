@@ -4,5 +4,16 @@
 body {
     background-color: #24292e;
     font-family: 'Quicksand', sans-serif;
+    color: wheat;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
 }
 
