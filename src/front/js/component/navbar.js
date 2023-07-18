@@ -78,10 +78,7 @@ export const Navbar = () => {
 						<li class="nav-item">
 							<a class="nav-link"><i className="side-icon fa-solid fa-dollar-sign"></i></a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link"><i className="side-icon fa-solid fa-ghost"></i></a>
-						</li>
-						<li className="nav-item dropdown justify-content-end me-3 ">
+						<li className="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								<i className="side-icon fa-solid fa-circle-user"></i>
 							</a>
@@ -94,16 +91,9 @@ export const Navbar = () => {
 					</ul>
 				</div>
 
-				{/* <div className="nav-item dropdown justify-content-end me-3 ">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						<i className="side-icon fa-solid fa-circle-user"></i>
-					</a>
-					<ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="#">Login</a></li>
-						<li><a class="dropdown-item" href="#">Signup</a></li>
-						<li><a class="dropdown-item" href="#">Logout</a></li>
-					</ul>
-				</div> */}
+				<div className="nav-item justify-content-end">
+				<a class="nav-link"><i className="side-icon fa-solid fa-ghost"></i></a>
+				</div>
 
 			</div>
 		</nav>

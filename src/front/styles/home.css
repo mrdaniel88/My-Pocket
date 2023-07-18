@@ -10,3 +10,38 @@
     color:whitesmoke
 }
 
+.fa-house:hover{
+    color: #ffee10;
+    /* box-shadow: 0 0 5px #ffee10; */
+    text-shadow: 0 0 30px #ffee10;
+}
+
+.fa-chart-pie:hover{
+    color: #ff0000;
+    /* box-shadow: 0 0 5px #ffee10; */
+    text-shadow: 0 0 30px #ff0000;
+}
+
+.fa-plus:hover{
+    color: #00bef8;
+    /* box-shadow: 0 0 5px #ffee10; */
+    text-shadow: 0 0 30px #00bef8;
+}
+
+.fa-dollar-sign:hover{
+    color: #3af700;
+    /* box-shadow: 0 0 5px #ffee10; */
+    text-shadow: 0 0 30px #3af700;
+}
+
+.fa-circle-user:hover{
+    color: #ff7b00;
+    /* box-shadow: 0 0 5px #ffee10; */
+    text-shadow: 0 0 30px #ff7b00;
+}
+
+.fa-ghost:hover{
+    color: #b30fff;
+    /* box-shadow: 0 0 5px #ffee10; */
+    text-shadow: 0 0 30px #b30fff;
+}
