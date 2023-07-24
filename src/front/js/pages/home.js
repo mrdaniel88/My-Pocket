@@ -3,6 +3,7 @@ import { Context } from "../store/appContext";
 import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 import { Sidebar } from "../component/sidebar";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -15,11 +16,14 @@ export const Home = () => {
 			<div className="mt-5 d-flex justify-content-center">
 				<div className="card p-5 d-flex flex-column align-items-center">
 					<div className="card-body ">
-						<div className="login-form ">
+						<div className="login-form">
 							<input type="email" className="form-control" placeholder="Email" aria-label="Email" required></input>
-							<input type="password" className="form-control mt-2" placeholder="Password" aria-label="Password" required></input>
-							<button className="btn mt-4 me-2" type="submit">Login</button>
-							<button className="btn mt-4" type="submit">Signup</button>
+							<input type="password" className="form-control mt-3" placeholder="Password" aria-label="Password" required></input>
+							<button className="accept-button btn mt-4 me-2" type="submit">Login</button>
+							<Link to="/signup">
+								<button className="accept-button btn mt-4" type="submit">Signup</button>
+							</Link>
+
 						</div>
 					</div>
 				</div>

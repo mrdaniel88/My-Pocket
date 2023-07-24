@@ -18,13 +18,21 @@ body {
     background-color: #3F3F3F;
 }
 
-.btn {
+.accept-button {
     background-color: #82aaff;
 }
 
-.btn:hover{
-    background-color: #c3e88d;
+.accept-button:hover{
+    background-color: #80cbc4;
 
+}
+
+.cancel-button {
+    background-color: #f07178;
+}
+
+.cancel-button:hover {
+    background-color: #c792ea;
 }
 
 /* .parent {
