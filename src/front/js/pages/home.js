@@ -16,8 +16,8 @@ export const Home = () => {
 				<div className="card p-5 d-flex flex-column align-items-center">
 					<div className="card-body ">
 						<div className="login-form ">
-							<input type="email" className="form-control" placeholder="Email" aria-label="Email"></input>
-							<input type="password" className="form-control mt-2" placeholder="Password" aria-label="Password"></input>
+							<input type="email" className="form-control" placeholder="Email" aria-label="Email" required></input>
+							<input type="password" className="form-control mt-2" placeholder="Password" aria-label="Password" required></input>
 							<button className="btn mt-4 me-2" type="submit">Login</button>
 							<button className="btn mt-4" type="submit">Signup</button>
 						</div>
