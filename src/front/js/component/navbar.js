@@ -92,7 +92,7 @@ export const Navbar = () => {
 				</div>
 
 				<div className="nav-item justify-content-end">
-				<a className="nav-link"><i className="side-icon fa-solid fa-ghost"></i></a>
+					<a className="nav-link"><i className="side-icon fa-solid fa-ghost"></i></a>
 				</div>
 
 			</div>
